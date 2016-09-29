@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 26.25px;
+}
+
+section {
+	background-color: grey;
+	border: 2px solid black;
+	width: 435px;
+	height: 240px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	position: relative;
+}
+#h1 {
+	background-color: pink;
+	border: 2px solid black;
+	width: 120px;
+	height: 23px;
+	position: absolute;
+	top:0px;
+	right:0px;
+	vertical-align: middle;
+}
+
+#h2 {
+	background-color: red;
+	border: 2px solid black;
+	color: white;
+	width: 120px;
+	height: 23px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	vertical-align: middle;
+}
+
+#h3 {
+	background-color: yellow;
+	border: 2px solid black;
+	width: 120px;
+	height: 23px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	vertical-align: middle;
+}
+h2  {
+	font-size: 18.75px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#section1 {
+	float: left;
+}
+#section2 {
+	float: left;
+}
+#section3 {
+	float: left;
+}
+p {
+	font-size: 15px;
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+/* for desktop */
+@media (min-width: 992px) {
+	#section1 {
+		width: 30%;
+	}
+	#section2 {
+		width: 30%;
+	}
+	#section3 {
+		width: 30%
+	}
+}
+
+/* for tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+	#section1 {
+		width: 45.5%;
+	}
+	#section2 {
+		width: 45.5%;
+	}
+	#section3 {
+		width: 95%;
+	}
+}
+
+/* for mobile */
+@media only screen and (max-device-width: 767px) {
+	#section1 {
+		width: 80%;
+		
+		margin: inherit auto inherit auto;
+	}
+	#section2 {
+		width: 80%;
+	}
+	#section3 {
+		width: 80%;
+	}
+
+}
